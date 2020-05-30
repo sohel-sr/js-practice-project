@@ -1,0 +1,28 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hexColor{
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+.hex{
+  font-size: 3rem; 
+}
+.hexBtn{
+  padding: 7px;
+  font-size: 2rem;
+  border: 3px solid #fefefe;
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(to left, #7065d6, #e66ad5, #16a085, #2980b9, #34495e);
+  color:rgba(255, 255, 255, 0.9);
+  text-transform: capitalize;
+}
+.hexBtn:hover{
+  background: linear-gradient(to left,#34495e, #2980b9, #16a085, #e66ad5, #7065d6 );
+  text-shadow: 0 0 25px rgba(247, 159, 31, 1);
+}
