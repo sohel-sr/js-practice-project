@@ -1,0 +1,44 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: 'calibri', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.counter-box{
+  flex: 0 0 70%;
+  text-align: center;
+  border: 2px solid grey;
+  padding: 1rem;
+  font-weight: bold;
+  box-shadow: 3px 20px 100px 50px rgba(255, 255, 255, 0.63);
+}
+.counter{
+  font-size: 6rem;
+}
+button{
+  display: block;
+  font-size: 2rem;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #ffd0a8;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+button:active{
+  opacity: 1;
+}
