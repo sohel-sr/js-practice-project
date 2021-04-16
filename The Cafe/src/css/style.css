@@ -1,0 +1,116 @@
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif; }
+
+/* NAVBAR SECTION */
+.navbarNav {
+  background-color: #000;
+  height: 55px; }
+  .navbarNav a {
+    color: #ffffff;
+    height: 40px;
+    font-size: 15px;
+    line-height: 1.5; }
+  .navbarNav .nav-link:hover {
+    background-color: #ccc;
+    color: #000; }
+
+/* header with img section */
+#header-img {
+  background: url("../img/coffeehouse.jpg");
+  min-height: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  #header-img .bottomleft {
+    position: absolute;
+    bottom: 15px;
+    left: 8px;
+    height: 24px;
+    width: 200px; }
+  #header-img .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    #header-img .center h2 {
+      font-size: 5rem; }
+  #header-img .bottomright {
+    position: absolute;
+    bottom: 15px;
+    right: 8px;
+    width: 200px;
+    height: 24px; }
+  #header-img .overlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    min-height: 70%;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%; }
+
+/* ABOUT THE CAFE */
+#about-cafe {
+  background: #F1F1F1; }
+  #about-cafe h5 {
+    width: 225px;
+    height: 30px;
+    letter-spacing: 4px; }
+  #about-cafe .about {
+    justify-content: center;
+    display: flex; }
+  #about-cafe h5 {
+    font-size: 22px; }
+  #about-cafe .about-cafe-text {
+    font-size: 18px;
+    line-height: 1.5; }
+  #about-cafe .comment {
+    background: #eef3f6;
+    border-left: 8px #ECE4E3 solid;
+    font-style: italic; }
+  #about-cafe .img-overlay {
+    opacity: 0.9; }
+
+/* THE MENU */
+.menu-section {
+  background: #F1F1F1; }
+  .menu-section .menu-header {
+    justify-content: center;
+    display: flex; }
+    .menu-section .menu-header h5 {
+      width: 140px;
+      height: 30px;
+      letter-spacing: 4px;
+      line-height: 1.5; }
+  .menu-section ul {
+    background-color: #F7F5F2;
+    box-shadow: 3px; }
+  .menu-section .manu-list p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-style: oblique;
+    line-height: 1.9; }
+
+/* FIND US SECTION */
+#find-us {
+  background: #F1F1F1;
+  font-size: 18px; }
+  #find-us .find-us-header {
+    justify-content: center;
+    display: flex; }
+    #find-us .find-us-header h5 {
+      width: 250px;
+      height: 30px;
+      letter-spacing: 4px;
+      line-height: 1.5; }
+
+/* FOOTER SECTION */
+#footer {
+  font-size: 20px;
+  min-height: 200px;
+  letter-spacing: 4px;
+  line-height: 1.5; }
+
+/* font-family: 'Inconsolata', monospace; */

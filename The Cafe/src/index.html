@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/uikit.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
+  <title>The Cafe</title>
+</head>
+<body>
+  <!-- NAVBAR SECTION -->
+  <ul class="nav navbarNav nav-justified ">
+    <li class="nav-item mt-2">
+      <a class="nav-link" href="#home">HOME</a>
+    </li>
+    <li class="nav-item mt-2">
+      <a class="nav-link" href="#about">ABOUT</a>
+    </li>
+    <li class="nav-item mt-2">
+      <a class="nav-link" href="#menu">MENU</a>
+    </li>
+    <li class="nav-item mt-2">
+      <a class="nav-link " href="#where">WHERE</a>
+    </li>
+  </ul>
+<!-- header with img section -->
+<section id="header-img">
+  <div class="overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 text-light text-center bottomleft">
+          <p class="bg-dark">Open from 6am to 5pm</p>
+        </div>
+        <div class="col-lg-4 text-center text-light center">
+          <h2 class="">The<br>Cafe</h2>
+        </div>
+        <div class="col-lg-4 text-center text-light bottomright">
+          <p class="text-center bg-dark">15 Adr street, 5015</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ABOUT THE CAFE -->
+<section id="about-cafe">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+          <div class="about">
+            <h5 class="text-center text-light bg-dark my-5 ">ABOUT THE CAFE</h5>
+          </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 about-cafe-text">
+              <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p class="pb-2">In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+              <div class="comment pl-4 pr-3">
+                <p class="pt-3">"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</p>
+                <p class="pb-3">Chef, Coffeeist and Owner: Liam Brown</p>
+              </div>
+                <div class="img-overlay">
+                  <img class="img-fluid shadow rounded pt-3" src="img/coffeeshop.jpg" alt="Coffeeshop">
+                </div>
+                <p class="mt-4"><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+                <p class=""><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- THE MENU SECTION -->
+<section class="menu-section" id="accordion">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="menu-header my-4 pt-5">
+          <h5 class="text-center  text-light bg-dark">THE MENU</h5>
+        </div>
+        <div class="row  justify-content-center">
+          <div class="col-lg-8">
+            <div class="manu-nav nav-pills nav-fill shadow">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" data-toggle="collapse"  href="#eat">Eat</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="collapse" href="#drink">Drink</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card mt-1 collapse show " id="eat" data-parent="#accordion">
+              <div class="card-body shadow">
+                <div class="manu-list">
+                  <h5 class="pt-3"><strong>Bread Basket</strong></h5>
+                  <p class="pb-4">Assortment of fresh baked fruit breads and muffins 5.50</p>
+                  <h5><strong>Honey Almond Granola with Fruits</strong></h5>
+                  <p class="pb-4">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                  <h5><strong>Belgian Waffle</strong></h5>
+                  <p class="pb-4">Vanilla flavored batter with malted flour 7.50</p>
+                  <h5><strong>Scrambled eggs</strong></h5>
+                  <p class="pb-4">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                  <h5><strong>Blueberry Pancakes</strong></h5>
+                  <p class="pb-4">With syrup, butter and lots of berries 8.50</p>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-1 collapse" id="drink" data-parent="#accordion">
+              <div class="card-body">
+                <div class="manu-list">
+                  <h5 class="pt-3"><strong>Coffee</strong></h5>
+                  <p class="pb-4">Regular coffee 2.50</p>
+                  <h5><strong>Chocolato</strong></h5>
+                  <p class="pb-4">Chocolate espresso with milk 4.50</p>
+                  <h5><strong>Corretto</strong></h5>
+                  <p class="pb-4">Whiskey and coffee 5.00</p>
+                  <h5><strong>Iced tea</strong></h5>
+                  <p class="pb-4">Hot tea, except not hot 3.00</p>
+                  <h5><strong>Soda</strong></h5>
+                  <p class="pb-4">Coke, Sprite, Fanta, etc. 2.50</p>
+                </div>
+                </div>
+              </div>
+              <div class="">
+                <img class="img-fluid mt-5 shadow rounded" src="img/coffeehouse2.jpg" alt="Coffeeshop">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FIND US SECTION -->
+<section id="find-us" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="find-us-header my-5 pt-5">
+          <h5 class="text-center text-light bg-dark">WHERE TO FIND US</h5>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 mb-5">
+            <h6 class="py-3">Find us at some address at some place.</h6>
+            <img class="img-fluid shadow rounded" src="img/map.jpg" alt="map picture">
+            <p class="pt-4"><span>FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+            <p class="pt-3"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+            <form class="mt-4" action="index.html" method="post" >
+              <input  type="text" placeholder="Name" name="" value="" class="form-control form-control-lg  mb-2">
+              <select class="custom-select form-control form-control-lg mb-2" required>
+                    <option value="">How many people</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five</option>
+                    <option value="6">Six</option>
+                    <option value="7">Seven</option>
+                    <option value="8">Eight</option>
+              </select>
+              <input  type="text" placeholder="Select date and time (DD.MM.YYYY)" name="" value="" class="form-control form-control-lg  mb-2">
+              <input  type="text" placeholder="Message / Special requirements" name="" value="" class="form-control form-control-lg  mb-2">
+              <input type="submit" class="btn btn-dark my-2" name="" value="SEND MESSAGE">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FOTTER SECTION -->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 center">
+            <div class="footer-text text-center mt-5 pt-5">
+              <p>Powered by <strong>SOHEL</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+</body>
+</html>
